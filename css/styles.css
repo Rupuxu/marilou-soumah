@@ -842,7 +842,14 @@ font-size: var(--small-font-size);
 .titre_paragraphe {
     font-size: var(--h2-font-size);
     margin-top: 4rem;
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: var(--mb-2-5);
+}
+
+.citation {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-2-5);
+    color: var(--first-color-second);
+    width: 60%;
 }
 .portfolio_container {
     overflow: initial;
@@ -940,13 +947,15 @@ font-size: var(--small-font-size);
     outline: none;
 }
 
+
+/*--==================== Projet Cars Club ====================*/
+
+.imagecars {
+    text-align: center;
+}
+
 /*--==================== Projet Affiches ====================*/
 
-.portfolio_title {
-   font-size: var(--h1-font-size);
-   font-weight: var(--font-semi-bold);
-
- }
 .gallery {
     margin-top: 4rem;
     line-height:0;
