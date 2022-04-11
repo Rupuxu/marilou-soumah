@@ -542,7 +542,6 @@ margin-bottom: 2rem;
 
 .footer_title {
     font-size: var(--h1-font-size);
-    margin-bottom: var(--mb-0-25);
     }
 
 .footer_subtitle {
@@ -554,6 +553,7 @@ font-size: var(--small-font-size);
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     }
 
@@ -826,6 +826,31 @@ font-size: var(--small-font-size);
 }
 
 /*========== Projet ERGO ==========*/
+.img_article {
+   margin-bottom: var(--mb-2-5);
+}
+
+.texte_article, 
+.section_title {
+    width: 83%;
+    margin-left: 8%;
+}
+.paragraphe {
+    margin-bottom: var(--mb-1);
+}
+
+.titre_paragraphe {
+    font-size: var(--h2-font-size);
+    margin-top: 4rem;
+    margin-bottom: var(--mb-2-5);
+}
+
+.citation {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-2-5);
+    color: var(--first-color-second);
+    width: 60%;
+}
 .portfolio_container {
     overflow: initial;
 }
@@ -842,6 +867,17 @@ font-size: var(--small-font-size);
     justify-self: center;
 }
 
+@media screen and (min-width : 768px) {
+    .portfolio_img {
+    width: 600px;
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .portfolio_img {
+    width: 900px;
+    }
+}
 .portfolio_title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
@@ -867,16 +903,40 @@ font-size: var(--small-font-size);
 }
 
 .swiper-button-prev {
-    left: 1.5rem;
+    margin-top: 140rem;
+    left: 5%;
 }
 .swiper-button-next {
-    right: 1.5rem;
+    margin-top: 140rem;
+    right: 5%;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: 12rem;
+    top: 176rem;
+}
+/*
+@media screen and (max-width : 350px) {
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+    margin-top: 10rem;
+    }
+}
+@media screen and (min-width : 568px) {
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        margin-top: 10rem;
+    }
+    }
+@media screen and (min-width : 768px) {
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    margin-top: 15rem;
+}
 }
 
+@media screen and (min-width : 1024px) {
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        margin-top : 18rem;
+    }
+    }
+*/
 .swiper-pagination-bullet-active {
     background-color: var(--first-color);
 }
@@ -887,13 +947,15 @@ font-size: var(--small-font-size);
     outline: none;
 }
 
+
+/*--==================== Projet Cars Club ====================*/
+
+.imagecars {
+    text-align: center;
+}
+
 /*--==================== Projet Affiches ====================*/
 
-.portfolio_title {
-   font-size: var(--h1-font-size);
-   font-weight: var(--font-semi-bold);
-
- }
 .gallery {
     margin-top: 4rem;
     line-height:0;
